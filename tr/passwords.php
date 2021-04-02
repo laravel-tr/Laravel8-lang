@@ -12,7 +12,6 @@ return [
     |
     */
 
-    'password' => 'Parolalar en az 8 karakterden oluşmalı ve birbirleri ile eşleşmelidir.',
     'reset' => 'Parolanız sıfırlandı!',
     'sent' => 'Parola sıfırlama bağlantınız e-posta ile gönderildi!',
     'token' => 'Parola sıfırlama adresi/kodu geçersiz.',
