@@ -4,7 +4,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Doğrulama mesajları
+    | Doğrulama Mesajları
     |--------------------------------------------------------------------------
     |
     | Aşağıdaki öğeler doğrulama sınıfı tarafından kullanılan varsayılan hata
@@ -40,10 +40,10 @@ return [
     'dimensions' => ':attribute görsel ölçüleri geçersiz.',
     'distinct' => ':attribute alanı yinelenen bir değere sahip.',
     'email' => ':attribute alanına girilen e-posta adresi geçersiz.',
+    'ends_with' => ':attribute, şunlardan biriyle bitmelidir :values',
     'exists' => 'Seçili :attribute geçersiz.',
     'file' => ':attribute dosya olmalıdır.',
     'filled' => ':attribute alanının doldurulması zorunludur.',
-    'ends_with' => ':attribute, şunlardan biriyle bitmelidir :values',
     'gt' => [
         'numeric' => ':attribute, :value değerinden büyük olmalı.',
         'file'    => ':attribute, :value kilobayt boyutundan büyük olmalı.',
@@ -90,6 +90,7 @@ return [
         'string' => ':attribute değeri :min karakterden büyük olmalıdır.',
         'array' => ':attribute en az :min nesneye sahip olmalıdır.',
     ],
+    'multiple_of' => ':attribute :value değerinin katsayısı olmalıdır.',
     'not_in' => 'Seçili :attribute geçersiz.',
     'not_regex' => ':attribute biçimi geçersiz.',
     'numeric' => ':attribute sayı olmalıdır.',
@@ -103,6 +104,9 @@ return [
     'required_with_all' => ':attribute alanı herhangi bir :values değeri varken zorunludur.',
     'required_without' => ':attribute alanı :values yokken zorunludur.',
     'required_without_all' => ':attribute alanı :values değerlerinden herhangi biri yokken zorunludur.',
+    'prohibited' => ':attribute alanının doldurulması yasak.',
+    'prohibited_if' => ':other alanı :value değerine sahipken :attribute alanının doldurulması yasak.',
+    'prohibited_unless' => ':other alanı :values değerine sahip değilken :attribute alanının doldurulması yasak.',
     'same' => ':attribute ile :other eşleşmelidir.',
     'size' => [
         'numeric' => ':attribute :size olmalıdır.',
@@ -120,7 +124,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Özelleştirilmiş doğrulama mesajları
+    | Özelleştirilmiş Doğrulama Mesajları
     |--------------------------------------------------------------------------
     |
     | Bu alanda her niteleyici (attribute) ve kural (rule) ikilisine özel hata
@@ -142,7 +146,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Özelleştirilmiş niteleyici isimleri
+    | Özelleştirilmiş Niteleyici İsimleri
     |--------------------------------------------------------------------------
     |
     | Bu alandaki bilgiler "email" gibi niteleyici isimlerini "e-posta adresi"
