@@ -4,7 +4,7 @@ return [
     
     /*
     |--------------------------------------------------------------------------
-    | Kimlik kontrol metinleri
+    | Kimlik Kontrol Metinleri
     |--------------------------------------------------------------------------
     |
     | Aşağıdaki metinler kimlik doğrulama (giriş) sırasında kullanıcılara
@@ -14,5 +14,7 @@ return [
     */
 
     'failed' => 'Girilmiş olan kullanıcı verileri sistemdekiler ile eşleşmemektedir.',
-    'throttle' => 'Çok fazla oturum açma girişiminde bulundunuz. Lütfen :seconds saniye sonra tekrar deneyiz.',
+    'password' => 'Girilen parola yanlış.',
+    'throttle' => 'Çok fazla oturum açma girişiminde bulundunuz. Lütfen :seconds saniye sonra tekrar deneyiniz.',
+
 ];
