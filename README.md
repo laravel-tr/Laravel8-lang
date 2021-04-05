@@ -6,19 +6,22 @@
 ### Dil dosyası kurulumu
 
 #### Dosyaların kopyalanması
-*tr/* dizinini */resources/lang/* dizini içerisine kopyalayınız, sonuç olarak */resources/lang/tr/* şeklinde olacaktır.
 
-*tr.json* dosyasını */resources/lang/* dizini içerisine kopyalayınız, sonuç olarak */resources/lang/tr.json* şeklinde olacaktır.
+`tr/` dizinini `/resources/lang/` dizini içerisine kopyalayınız, sonuç olarak `/resources/lang/tr/` şeklinde olacaktır.
+
+`tr.json` dosyasını `/resources/lang/` dizini içerisine kopyalayınız, sonuç olarak `/resources/lang/tr.json` şeklinde olacaktır.
 
 #### Laravel yazılımını Türkçe dilde kullanma
-*config/app.php* dosyasındaki, **locale** kısmındaki **en** ifadesini **tr** olarak değiştiriniz. Sonuç aşağıdaki gibi olacaktır:
+
+`config/app.php` dosyasındaki, `locale` kısmındaki `en` ifadesini `tr` olarak değiştiriniz. Sonuç aşağıdaki gibi olacaktır:
 
 ```php
-//'locale' => 'en',
+// 'locale' => 'en',
 'locale' => 'tr',
 ```
 
 ### Lisans
+
 Açık kaynaklı olan bu proje [MIT lisansı][mit-url] ile lisanslanmıştır.
 
 [mit-url]: http://opensource.org/licenses/MIT

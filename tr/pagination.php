@@ -4,7 +4,7 @@ return [
     
     /*
     |--------------------------------------------------------------------------
-    | Sayfalama metinleri
+    | Sayfalama Metinleri
     |--------------------------------------------------------------------------
     |
     | Aşağıdaki metinler sayfalama kütüphanelerinin linklerini oluşturmak
@@ -15,4 +15,5 @@ return [
 
     'previous' => '&laquo; Önceki',
     'next' => 'Sonraki &raquo;',
+
 ];
