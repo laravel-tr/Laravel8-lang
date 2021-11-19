@@ -34,6 +34,8 @@ return [
     'date' => ':attribute geçerli bir tarih olmalıdır.',
     'date_equals' => ':attribute ile :date aynı tarihler olmalıdır.',
     'date_format' => ':attribute :format biçimi ile eşleşmiyor.',
+    'declined' => ':attribute alanı reddedilmelidir.',
+    'declined_if' => ':attribute alanı, :other alanı :value değerine sahipken reddedilmelidir.',
     'different' => ':attribute ile :other birbirinden farklı olmalıdır.',
     'digits' => ':attribute :digits haneden oluşmalıdır.',
     'digits_between' => ':attribute :min ile :max arasında haneden oluşmalıdır.',
