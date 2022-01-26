@@ -14,6 +14,7 @@ return [
     */
 
     'accepted' => ':attribute kabul edilmelidir.',
+    'accepted_if' => ':other alanı :value değerine sahipken :attribute kabul edilmelidir.',
     'active_url' => ':attribute geçerli bir URL olmalıdır.',
     'after' => ':attribute değeri :date tarihinden sonra olmalıdır.',
     'after_or_equal' => ':attribute değeri :date tarihinden sonra veya eşit olmalıdır.',
@@ -31,6 +32,7 @@ return [
     ],
     'boolean' => ':attribute sadece doğru veya yanlış olmalıdır.',
     'confirmed' => ':attribute tekrarı eşleşmiyor.',
+    'current_password' => 'Parola geçersiz.',
     'date' => ':attribute geçerli bir tarih olmalıdır.',
     'date_equals' => ':attribute ile :date aynı tarihler olmalıdır.',
     'date_format' => ':attribute :format biçimi ile eşleşmiyor.',
@@ -43,6 +45,7 @@ return [
     'distinct' => ':attribute alanı yinelenen bir değere sahip.',
     'email' => ':attribute alanına girilen e-posta adresi geçersiz.',
     'ends_with' => ':attribute, şunlardan biriyle bitmelidir :values',
+    'enum' => 'Seçili :attribute geçersiz.',
     'exists' => 'Seçili :attribute geçersiz.',
     'file' => ':attribute dosya olmalıdır.',
     'filled' => ':attribute alanının doldurulması zorunludur.',
@@ -65,6 +68,7 @@ return [
     'ip' => ':attribute geçerli bir IP adresi olmalıdır.',
     'ipv4' => ':attribute geçerli bir IPv4 adresi olmalıdır.',
     'ipv6' => ':attribute geçerli bir IPv6 adresi olmalıdır.',
+    'mac_address' => ':attribute geçerli bir MAC adresi olmalıdır.',
     'json' => ':attribute geçerli bir JSON değişkeni olmalıdır.',
     'lt' => [
         'numeric' => ':attribute, :value değerinden küçük olmalı.',
@@ -109,6 +113,7 @@ return [
     'prohibited' => ':attribute alanının doldurulması yasak.',
     'prohibited_if' => ':other alanı :value değerine sahipken :attribute alanının doldurulması yasak.',
     'prohibited_unless' => ':other alanı :values değerine sahip değilken :attribute alanının doldurulması yasak.',
+    'prohibits' => ':attribute alanı, :other alanının mevcut olmasını yasaklar.',
     'same' => ':attribute ile :other eşleşmelidir.',
     'size' => [
         'numeric' => ':attribute :size olmalıdır.',
