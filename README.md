@@ -1,6 +1,6 @@
-## Laravel 8.* Türkçe dil dosyaları
+## Laravel 9.* Türkçe dil dosyaları
 
-> "[Laravel Türkiye](http://laravel.gen.tr/)" tarafından Laravel 8.* sürümleri için tercüme edilen ve geliştirilen Laravel Türkçe dil dosyalarıdır.
+> "[Laravel Türkiye](http://laravel.gen.tr/)" tarafından Laravel 9.* sürümleri için tercüme edilen ve geliştirilen Laravel Türkçe dil dosyalarıdır.
 
 
 ### Dil dosyası kurulumu
